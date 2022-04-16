@@ -1,0 +1,498 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="biblioteca virtual UNI">
+    <title>Biblioteca UNI | Inicio</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/price-range.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">     
+    <link rel="shortcut icon" href="images/iconolibreria.ico">
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+
+
+	<header id="header"><!--header-->
+		<div class="header_top"><!--header de arriba-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="contactinfo">
+							<ul class="nav nav-pills">
+								<li><a href="#"><i class="fa fa-phone"></i> +50588499671</a></li>
+								<li><a href="#"><i class="fa fa-envelope"></i> elier.aries@gmail.com</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="social-icons pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-->
+		
+		<div class="header-middle"><!--header central-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="logo pull-left">
+							<a href="inicio.html"><img src="images/home/logo.png" alt="" width="100px" height="50px" /></a>
+						</div>
+						
+					</div>
+					<div class="col-sm-8">
+						<div class="shop-menu pull-right">
+							<ul class="nav navbar-nav">
+								<li>
+                            <a href="#" target="contenedor"><i class="fa fa-fw fa-user"></i>Usuario:<b style="color:green;"> <?php  echo $nombre; ?></b></a>
+                        </li>
+							    <li><a href="login/login.php"><i class="fa fa-lock"></i> Administracion</a></li>
+							    <li><a href="login/logout2.php"><i class="fa fa-power-off"></i> Salir</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-->
+	
+		<div class="header-bottom"><!--header de abajo-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="mainmenu pull-left">
+							<ul class="nav navbar-nav collapse navbar-collapse">
+								<li><a href="inicio.html" class="active">Inicio</a></li>
+								<li class="dropdown"><a href="#">Libros<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="libros_programacion.php">Programacion</a></li>
+										<li><a href="libros_informatica.php">Informatica</a></li> 
+										<li><a href="libros_sistemas.php">Ingeneria de Sistemas</a></li> 
+										<li><a href="libros_bd.php">Base de Datos</a></li> 
+										<li><a href="libros_web.php">Diseño Web</a></li> 
+                                    </ul>
+                                </li> 
+								<li class="dropdown"><a href="#">Servicios<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="prestamos.php">Prestamos de Libros</a></li>
+                                    </ul>
+                                </li> 
+								<li><a href="contacto.html">Contacto</a></li>
+								<li><a href="busqueda.html">Buscar un Libro</a></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div><!--/header-->
+	</header><!--/ fin del header-->
+
+
+
+      <section id="slider"><!--slider-->
+            <div class="container">
+                  <div class="row">
+                        <div class="col-sm-12">
+                              <div id="slider-carousel" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                          <li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+                                          <li data-target="#slider-carousel" data-slide-to="1"></li>
+                                          <li data-target="#slider-carousel" data-slide-to="2"></li>
+                                    </ol>
+                                    
+                                    <div class="carousel-inner">
+                                          <div class="item active">
+                                                <div class="col-sm-6">
+                                                      <h1><span></span>El conocimiento en tus manos</h1>
+                                                      <h2>Todo lo que quieras a tu alcance</h2>
+                                                      <p>Con esta coleccion de libros puedes llegar a ser un experto en programacion.</p>
+                                                      <button type="button" class="btn btn-default get">Empezar</button>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                      <img src="images/home/girl1.png" class="girl img-responsive" alt="" />
+                                                </div>
+                                          </div>
+                                          <div class="item">
+                                                <div class="col-sm-6">
+                                                      <h1><span></span>Biblioteca en Línea</h1>
+                                                      <h2>Todo lo que necesitas para hacer tus tareas</h2>
+                                                      <p>Disponible para ti una gran cantidad de libros para realizar tus tareas y proyectos de clase. </p>
+                                                      <button type="button" class="btn btn-default get">Empezar</button>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                      <img src="images/home/girl3.jpg" class="girl img-responsive" alt="" />
+                                                </div>
+                                          </div>
+                                          
+                                          <div class="item">
+                                                <div class="col-sm-6">
+                                                      <h1><span></span>Programación y Diseño</h1>
+                                                      <h2>Herramientas para programar y diseñar herramientas informáticas</h2>
+                                                      <p>Con esta cantidad de libros puedes diseñar culaquier tipo de herramienta informatica para el servicio de los demas. </p>
+                                                      <button type="button" class="btn btn-default get">Empezar</button>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                      <img src="images/home/girl3.png" class="girl img-responsive" alt="" />
+                                                </div>
+                                          </div>
+                                          
+                                    </div>
+                                    
+                                    <a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+                                          <i class="fa fa-angle-left"></i>
+                                    </a>
+                                    <a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+                                          <i class="fa fa-angle-right"></i>
+                                    </a>
+                              </div>
+                              
+                        </div>
+                  </div>
+            </div>
+      </section><!--/slider-->
+      
+      
+
+
+
+
+
+
+
+
+
+<section>
+      <div class="container">
+		<div class="row">
+		
+                  <div class="col-sm-3"> <!--/Inicio de barra lateral izquierda-->
+                        <div class="left-sidebar">				
+                            <div class="brands_products"><!--brands_products-->
+                                    <h2>Categorias</h2>
+                                    <div class="brands-name">
+                                          <ul class="nav nav-pills nav-stacked">
+                                           <li><a href="#"> <span class="pull-right">(50)</span>Tecnologia</a></li>
+                                          <li><a href="#"> <span class="pull-right">(56)</span>Web</a></li>
+                                          <li><a href="#"> <span class="pull-right">(27)</span>Informatica</a></li>
+                                          <li><a href="#"> <span class="pull-right">(32)</span>Programacion</a></li>
+                                          <li><a href="#"> <span class="pull-right">(5)</span>Estadisticas</a></li>
+                                          <li><a href="#"> <span class="pull-right">(9)</span>Finanzas</a></li>
+                                          <li><a href="#"> <span class="pull-right">(4)</span>Administracion</a></li>
+                                     
+                                          
+                                          </ul>
+                                    </div>
+                              </div><!--/brands_products-->
+                                  <div class="price-range"><!--price-range-->
+                                          <h2>Visitas</h2>
+                                          <div class="col-md-4">
+                                              <img src="images/home/visitas.png" width="60" height="60">
+                                          </div>
+                                          <div class="col-md-8">
+                                                <h5><b>Visitas Totales</b></h5>
+                                                <h6><b>Visitas Hoy</b></h6>
+                                          </div>
+                                    </div><!--/price-range-->					
+                        </div>
+                  </div> <!--fin de barra lateral izquierda-->
+
+
+
+
+
+                  <div class="col-sm-9 padding-right">
+                  <!--Contenido Central donde se muestran los libros-->
+                        <!--Cuadros con los libros obtenidos de la base de datos-->
+                        <div class="features_items">
+                              <h2 class="title text-center">Listado de Libros</h2>
+                              
+
+                              <div class="col-sm-3">
+                                    <div class="product-image-wrapper">
+                                          <div class="single-products">
+                                                <div class="productinfo text-center">
+                                                      <img src="images/libros/product1.jpg" width="100" heigth="90">	 <p>Java 8</p>
+                                                      <p><?php //echo $descripcion ?></p>
+                                                </div>
+
+                                                <div class="product-overlay">
+                                                      <div class="overlay-content">
+                                                            <img src="images/libros/product1.jpg" width="150" heigth="150">
+                                                            <p><?php echo $nombre ?></p>
+                                                            <a href="admin/pdf/archivo.php?id=<?php echo $row['id_libro']?>" class="btn btn-default add-to-cart">
+                                                            <i class="fa fa-download"></i>Ver y Descargar</a>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div> 
+                                    
+
+
+                              <div class="col-sm-3">
+                                    <div class="product-image-wrapper">
+                                          <div class="single-products">
+                                                <div class="productinfo text-center">
+                                                      <img src="images/libros/product1.jpg" width="100" heigth="90">	 <p>Java 8</p>
+                                                      <p><?php //echo $descripcion ?></p>
+                                                </div>
+
+                                                <div class="product-overlay">
+                                                      <div class="overlay-content">
+                                                            <img src="images/libros/product1.jpg" width="150" heigth="150">
+                                                            <p><?php echo $nombre ?></p>
+                                                            <a href="admin/pdf/archivo.php?id=<?php echo $row['id_libro']?>" class="btn btn-default add-to-cart">
+                                                            <i class="fa fa-download"></i>Ver y Descargar</a>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div> 
+
+
+                              <div class="col-sm-3">
+                                    <div class="product-image-wrapper">
+                                          <div class="single-products">
+                                                <div class="productinfo text-center">
+                                                      <img src="images/libros/product1.jpg" width="100" heigth="90">	 <p>Java 8</p>
+                                                      <p><?php //echo $descripcion ?></p>
+                                                </div>
+
+                                                <div class="product-overlay">
+                                                      <div class="overlay-content">
+                                                            <img src="images/libros/product1.jpg" width="150" heigth="150">
+                                                            <p><?php echo $nombre ?></p>
+                                                            <a href="admin/pdf/archivo.php?id=<?php echo $row['id_libro']?>" class="btn btn-default add-to-cart">
+                                                            <i class="fa fa-download"></i>Ver y Descargar</a>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div> 
+
+
+                              <div class="col-sm-3">
+                                    <div class="product-image-wrapper">
+                                          <div class="single-products">
+                                                <div class="productinfo text-center">
+                                                      <img src="images/libros/product1.jpg" width="100" heigth="90">	 <p>Java 8</p>
+                                                      <p><?php //echo $descripcion ?></p>
+                                                </div>
+
+                                                <div class="product-overlay">
+                                                      <div class="overlay-content">
+                                                            <img src="images/libros/product1.jpg" width="150" heigth="150">
+                                                            <p><?php echo $nombre ?></p>
+                                                            <a href="admin/pdf/archivo.php?id=<?php echo $row['id_libro']?>" class="btn btn-default add-to-cart">
+                                                            <i class="fa fa-download"></i>Ver y Descargar</a>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div> 
+
+
+                              <div class="col-sm-3">
+                                    <div class="product-image-wrapper">
+                                          <div class="single-products">
+                                                <div class="productinfo text-center">
+                                                      <img src="images/libros/product1.jpg" width="100" heigth="90">	 <p>Java 8</p>
+                                                      <p><?php //echo $descripcion ?></p>
+                                                </div>
+
+                                                <div class="product-overlay">
+                                                      <div class="overlay-content">
+                                                            <img src="images/libros/product1.jpg" width="150" heigth="150">
+                                                            <p><?php echo $nombre ?></p>
+                                                            <a href="admin/pdf/archivo.php?id=<?php echo $row['id_libro']?>" class="btn btn-default add-to-cart">
+                                                            <i class="fa fa-download"></i>Ver y Descargar</a>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div> 
+
+
+                              <div class="col-sm-3">
+                                    <div class="product-image-wrapper">
+                                          <div class="single-products">
+                                                <div class="productinfo text-center">
+                                                      <img src="images/libros/product1.jpg" width="100" heigth="90">	 <p>Java 8</p>
+                                                      <p><?php //echo $descripcion ?></p>
+                                                </div>
+
+                                                <div class="product-overlay">
+                                                      <div class="overlay-content">
+                                                            <img src="images/libros/product1.jpg" width="150" heigth="150">
+                                                            <p><?php echo $nombre ?></p>
+                                                            <a href="admin/pdf/archivo.php?id=<?php echo $row['id_libro']?>" class="btn btn-default add-to-cart">
+                                                            <i class="fa fa-download"></i>Ver y Descargar</a>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div> 
+                        </div>
+                  </div>
+            </div>
+      </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <footer id="footer"><!--Footer-->
+		
+		<div class="footer-widget">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Servicios</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Ayuda en Linea</a></li>
+								<li><a href="#">Contactanos</a></li>
+								<li><a href="#">Prestamos de Libros</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Libros Actuales</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Programacion</a></li>
+								<li><a href="#">Diseño Web</a></li>
+								<li><a href="#">Seguridad Informatica</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Politicas</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Terminos de Uso</a></li>
+								<li><a href="#">Politica de Privacidad</a></li>
+								<li><a href="#">Politica del Sitio</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Acerca</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Acerca de Nosotros</a></li>
+								<li><a href="#">Mision y Vision</a></li>
+								<li><a href="#">¿Que hacemos?</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3 col-sm-offset-1">
+						<div class="single-widget">
+							<h2>Suscribite para libros</h2>
+							<form action="funciones_php/validar_suscriptor.php" class="searchform" method="post">
+								<input type="text" placeholder="Su Direccion de Correo" name="suscriptor" required />
+								<button type="submit" class="btn btn-success"><i class="fa fa-arrow-circle-o-right"></i></button>
+								<p>Obten los ultimos de libros<br /> De forma confiable y rapida</p>
+							</form>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<p class="pull-left">Copyright © 2018 Biblioteca Online. Todos los Derechos Reservados.</p>
+					<p class="pull-right">Diseñado por: <span><a target="_blank" href="#">Elier Rocha</a></span></p>
+				</div>
+			</div>
+		</div>
+		
+	</footer><!--/Footer-->
+
+
+
+
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/price-range.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
